@@ -49,21 +49,55 @@ main {
 button {
   background-color: #000;
   color: #fff;
+  font-size: 16px;
   border: 0;
   border-radius: 7px;
-  height: 25px;
+  height: 30px;
   width: 200px;
-}
+};
 
-.activity-box {
-  background-color: #ff9f1c;
-  color: #5e3006;
-  height: 50%;
-  width: 90%;
+/* User Info Section */
+
+.user-info-left {
+  width: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+};
+
+.user-card {
+  width: 80%;
+  height: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+};
+
+.address-line1 {
+  margin-bottom: 0;
+};
+
+.address-line2 {
+  margin-top: 0;
+};
+
+.form {
+  margin-top: 20px;
+};
+
+/* Stats Section */
+
+.stats-container {
+  width: 70%;
+  padding: 20px;
+};
+
+/* Daily Stats */
+
+.daily-stats {
+  display: flex;
+  margin-bottom: 24px;
 };
 
 .daily-water {
@@ -104,6 +138,37 @@ button {
   margin-bottom: 40px;
 };
 
+.stats-number-lg {
+  font-size: 90px;
+  margin: 5px;
+};
+
+.daily-sleep-stats,
+.daily-activity-stats {
+  display: flex;
+};
+
+.icon {
+  width: 40px;
+  height: 40px;
+};
+
+.daily-sleep-column,
+.daily-activity-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 15px 15px 15px;
+};
+
+.text-under-number {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+};
+
+/* Weekly Stats */
+
 .weekly-water {
   color: #054c3e;
   width: 300px;
@@ -123,7 +188,7 @@ button {
   width: 800px;
   height: 280px;
   margin-bottom: 15px;
-}
+};
 
 .sleep-table-heading {
   background-color: #ab7bef;
@@ -142,99 +207,28 @@ button {
   margin: 5px;
 };
 
-.stats-container {
-  width: 70%;
-  height: 1350px;
-  padding: 20px;
-};
-
-.user-info-left {
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-};
-
-.user-card {
-  width: 80%;
-  height: 25%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-};
-
-.daily-stats {
-  display: flex;
-  margin-bottom: 24px;
-};
-
 .weekly-stats {
   display: flex;
   flex-wrap: wrap;
 };
 
-.address-line1 {
-  margin-bottom: 0;
-};
-
-.address-line2 {
-  margin-top: 0;
-};
-
-.stats-number-lg {
-  font-size: 90px;
-  margin: 5px;
-};
-
-.daily-sleep-stats,
-.daily-activity-stats {
-  display: flex;
-};
-
-.icon {
-  width: 40px;
-  height: 40px;
-};
-
 .dashboard-subhead {
   font-size: 18px;
-}
-
-.daily-sleep-column,
-.daily-activity-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0px 15px 15px 15px;
-}
-
-.text-under-number {
-  margin: 0;
-  font-weight: bold;
-  font-size: 20px;
-}
+};
 
 .weekly-table-container {
   margin: 10px;
-}
+};
 
 .daily-heading,
 .weekly-heading {
   margin-bottom: 10px;
-}
-
-.steps-today {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+};
 
 .small-txt {
   font-size: 16px;
-}
+};
 
 .hidden {
   display: none;
-}
+};
